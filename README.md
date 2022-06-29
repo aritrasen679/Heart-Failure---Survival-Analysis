@@ -7,6 +7,7 @@ In this notebook, I explore 2 models:
 1.	Kaplan-Meier Estimator
 2.	Log-Rank Test
 3.	Cox Proportional Hazard Model
+
 The Kaplan-Meier estimator is a test statistic that gives us an approximation of the true survival function of a population, the approximation getting better with increasing sample size. This estimator can robustly handle censoring, and can be derived from the Hazard Function using Maximum Likelihood Estimation.
 This estimator can be used for simple comparison of survival rates between groups (For instance, survival rates between smokers and non-smokers).
 The Cox Proportional Hazard Model is a survival analysis model that assumes that the baseline hazard function of a population is multiplicatively influenced by the covariates. For instance, given a group of smokers and non-smokers, the baseline hazard of the population is multiplied by 2 in case of smokers.
